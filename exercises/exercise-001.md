@@ -15,4 +15,4 @@ Gegeben sei eine Liste mit den Gewichten von 10 Corgis:
 * Erstelle eine Liste in der die Kategorien stehen. Verifiziere das durch Unit-Tests.
 * Bestimme das Gewicht des schwersten Corgis. Verifiziere das durch Unit-Tests.
 
-Verwende den `for`-loop, 
+Verwende den `for`-loop, verzichte auf die `max`und `sum` Funktionen der Liste.
