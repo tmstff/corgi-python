@@ -3,7 +3,7 @@
 ##Import modules
 
 import pytest
-import Aufgabe1
+import exercise-001
 
 ## TESTS
 
@@ -16,8 +16,8 @@ def test_DurchschnittsGewichtLOOP():
     assert Aufgabe1.DurchschnittsgewichtLOOP([]) == 0
     assert Aufgabe1.DurchschnittsgewichtLOOP([2]) == 2
     assert Aufgabe1.DurchschnittsgewichtLOOP([8,6,4]) == 6
-	
-	
+
+
 def test_Corgikategorisierung():
 	assert Aufgabe1.Corgikategorisierung(  []) == []
 	with pytest.raises(Exception):
@@ -29,14 +29,14 @@ def test_Corgikategorisierung():
 	assert Aufgabe1.Corgikategorisierung([19]) == ["mittlerer Corgi"]
 	assert Aufgabe1.Corgikategorisierung([20]) == ["grosser Corgi"]
 	assert Aufgabe1.Corgikategorisierung([25]) == ["grosser Corgi"]
-	
+
 def test_DicksterCorgi():
 	with pytest.raises(Exception):
 		Aufgabe1.DicksterCorgi([])
 	assert Aufgabe1.DicksterCorgi([0]) == 0
 	assert Aufgabe1.DicksterCorgi([9, 12, 7]) == 12
 
-	
+
 test_GesamtgewichtLOOP()
 test_DurchschnittsGewichtLOOP()
 test_Corgikategorisierung()
