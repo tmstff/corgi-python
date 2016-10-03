@@ -1,2 +1,2 @@
-# corgy-python
-Learn python with corgies :-)
+# corgi-python
+Learn python with corgis :-)
